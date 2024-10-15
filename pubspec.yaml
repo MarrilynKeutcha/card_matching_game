@@ -1,0 +1,29 @@
+name: card_matching_game
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you're planning to publish it later
+
+# Flutter SDK version range
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+# Dependencies for Flutter
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.0
+
+# Development dependencies for testing
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# Flutter settings and assets declaration
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/card_back.jpg
+    - assets/card_front_1.jpg
+    - assets/card_front_2.jpg
+    # Add more images here as necessary
